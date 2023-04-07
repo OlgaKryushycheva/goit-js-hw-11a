@@ -4,42 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
+    <title>Homework 11</title>
   </head>
+  <link rel="stylesheet" href="./css/styles.css" />
   <body>
-    <form class="search-form" id="search-form">
-      <input
-        type="text"
-        name="searchQuery"
-        autocomplete="off"
-        placeholder="Search images..."
-      />
-      <button type="submit">Search</button>
-    </form>
-
-    <div class="gallery">
-      <!-- <div class="photo-card">
-        <a
-          class="gallery__item"
-          href="https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820_1280.jpg"
-        >
-          <img
-            src="https://cdn.pixabay.com/photo/2019/05/14/16/43/rchids-4202820__480.jpg"
-            alt="Hokkaido Flower"
-            loading="lazy"
-          />
-        </a>
-        <div class="info">
-          <p class="info-item"><b>Likes</b>0</p>
-          <p class="info-item"><b>Views</b>0</p>
-          <p class="info-item"><b>Comments</b>0</p>
-          <p class="info-item"><b>Downloads</b>0</p>
-        </div>
-      </div> -->
+    <div class="form_wrapper">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
     </div>
 
-    <button type="button" class="load-more">Load more</button>
-
+    <div class="gallery"></div>
+    <button type="button" class="load-more hidden">Load more</button>
     <script src="index.js" type="module"></script>
   </body>
 </html>
